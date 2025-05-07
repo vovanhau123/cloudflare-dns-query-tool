@@ -24,6 +24,7 @@ A PowerShell script to query DNS records from Cloudflare API. This tool helps yo
    $email = "your-email@example.com"
    $apiKey = "your-api-key"
    $zoneID = "your-zone-id"
+   $domainToFind = "Domain name" 
    ```
 2. Run the script in PowerShell
 
@@ -36,6 +37,7 @@ A PowerShell script to query DNS records from Cloudflare API. This tool helps yo
 $email = $env:CLOUDFLARE_EMAIL
 $apiKey = $env:CLOUDFLARE_API_KEY
 $zoneID = $env:CLOUDFLARE_ZONE_ID
+$domainToFind = "Domain name"
 
 # Rest of the script remains the same
 ```
@@ -64,6 +66,7 @@ Script PowerShell để truy vấn bản ghi DNS từ API Cloudflare. Công cụ
    $email = "your-email@example.com"
    $apiKey = "your-api-key"
    $zoneID = "your-zone-id"
+   $domainToFind = "Domain name"
    ```
 2. Chạy script trong PowerShell
 
@@ -76,6 +79,7 @@ Script PowerShell để truy vấn bản ghi DNS từ API Cloudflare. Công cụ
 $email = $env:CLOUDFLARE_EMAIL
 $apiKey = $env:CLOUDFLARE_API_KEY
 $zoneID = $env:CLOUDFLARE_ZONE_ID
+$domainToFind = "Domain name"
 
 # Phần còn lại của script giữ nguyên
 ```
