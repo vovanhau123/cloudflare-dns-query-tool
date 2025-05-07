@@ -1,5 +1,4 @@
 # Cloudflare DNS Auto Updater
-# Cloudflare DNS Auto Updater
 
 [English](#english) | [Tiếng Việt](#vietnamese)
 
